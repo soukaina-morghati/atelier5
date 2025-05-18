@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'atlier5';
   user: string[] = ['soukaina', 'said', 'abdelaknir', 'mouad'];
   nouveauNom: string = '';
 
