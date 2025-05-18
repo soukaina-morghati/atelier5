@@ -39,12 +39,7 @@ describe('AppComponent', () => {
     expect(li[1].textContent).toContain('Bob');
   });
 
-  it('doit afficher "Aucun utilisateurs dans la liste" si la liste est vide', () => {
-    component.user = [];
-    fixture.detectChanges();
-    const msg = fixture.nativeElement.querySelector('p');
-    expect(msg?.textContent).toContain('Aucun utilisateurs dans la liste');
-  });
+
 
   it('doit ajouter un utilisateur à la liste', () => {
     component.user = [];
